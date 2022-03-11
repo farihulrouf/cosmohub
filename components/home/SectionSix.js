@@ -2,7 +2,7 @@
 const Sectionsix = () => {
     return (
         <div className="bg-black min-h-screen">
-             <div className="max-w-screen-xl mx-auto pb-4 pt-4">
+             <div className="max-w-screen-xl mx-auto p-4">
                 <div className="flex gap-2 relative pt-24">
                     <div className="absolute top-0">
                         <img className="w-full" src="/img/bg_six_1.png" alt="pic" />
