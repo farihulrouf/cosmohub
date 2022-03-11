@@ -1,7 +1,7 @@
 
 const NavBar = () => {
     return (
-      <nav className="fixed w-full">
+      <nav className="fixed w-full z-20">
         <div className="max-w-screen-xl mx-auto p-4">
           <div className="pt-5 flex justify-between items-center">
             <div className="flex space-x-1 items-center">

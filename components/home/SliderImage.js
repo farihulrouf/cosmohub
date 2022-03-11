@@ -7,7 +7,7 @@ export default class SliderImage extends Component {
     const settings = {
       dots: false,
       arrows: false,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 1.12,
       slidesToScroll: 1

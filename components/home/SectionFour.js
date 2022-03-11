@@ -1,9 +1,13 @@
 import SliderImage from "./SliderImage"
 const SectionFour = () => {
     return (
-        <div className="min-h-[688px] bg-black">
-             <div className="max-w-screen-xl mx-auto">
-                <div className="flex gap-2">
+        <div className="bg-black">
+             <div className="max-w-screen-xl mx-auto pb-4 pt-4">
+                <div className="relative pt-16 flex gap-2">
+                    <div className="absolute top-1 left-1/2 pl-12 transform -translate-x-1/2">
+                            <img className="max-w-[412px] h-[310px]" src="/img/bg_section4.svg" alt="pic" />
+                    </div>
+                    <img className="absolute left-[460px] w-12 h-auto" src="/img/rocket.svg" alt="pic" />
                     <div className="w-1/2 flex flex-col justify-center">
                         <div className="max-w-3xl pl-8">
                             <h5 className="text-teal-300 text-xl py-2">Solutions</h5>
