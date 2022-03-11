@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar'
 import SectionTwo from '../components/home/SectionTwo'
 import SectionThree from '../components/home/SectionThree'
 import SectionFour from '../components/home/SectionFour'
+import SectionFive from '../components/home/SectionFive'
 export default function Home() {
   return (
     <div>
@@ -20,6 +21,7 @@ export default function Home() {
         <SectionTwo />
         <SectionThree/>
         <SectionFour />
+        <SectionFive />
       </main>
 
       <footer>

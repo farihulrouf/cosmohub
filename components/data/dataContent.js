@@ -40,7 +40,35 @@ const contentSthreeImage = [
    
 ]
 
+const contentFiveEvents = [
+    {
+        id: 1,
+        title: "Community Events",
+        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        icon: "/img/content/icon_content4.svg"
+    },
+    {
+        id: 2,
+        title: "Exercise Facilities",
+        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        icon: "/img/content/icon_content5.svg"
+    },
+    {
+        id: 3,
+        title: "High-Speed Wireless",
+        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        icon: "/img/content/icon_content6.svg"
+    },
+    {
+        id: 4,
+        title: "Comfort Lounges",
+        desc: "Allowing cost savings and convenience through the use of common infrastructures.",
+        icon: "/img/content/icon_content7.svg"
+    }
+]
+
 export {
     contentSThree,
-    contentSthreeImage
+    contentSthreeImage,
+    contentFiveEvents
  }
