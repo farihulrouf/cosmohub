@@ -1,7 +1,7 @@
 const SectionBanner = () => {
     return (
-        <nav className="object-cover min-h-[688px] bg-[url('/img/bg_nav.png')]">
-            <div className="max-w-screen-xl mx-auto">
+        <div className="object-cover min-h-[688px] bg-[url('/img/bg_nav.png')]">
+            <div className="max-w-screen-xl mx-auto p-4">
             
             <div className="max-w-lg pt-[100px]">
                 <h2 className="text-white text-5xl py-2">A new way to revolutionise your workspace to yourself</h2>
@@ -15,7 +15,7 @@ const SectionBanner = () => {
                 </div>
             </div>
             </div>   
-        </nav>
+        </div>
     )
 }
 export default SectionBanner

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import SectionBanner from '../components/home/SectionBanner'
+import NavBar from '../components/NavBar'
 export default function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <NavBar />
         <SectionBanner />
       </main>
 
