@@ -33,7 +33,7 @@ const SectionThree = () => {
                      <div className="w-1/2">
                          <div className="flex gap-1 flex-wrap max-w-[600px]">
                              {contentSthreeImage.map((item, index) => (
-                                 <div className="max-w-[290px]">
+                                 <div key={index} className="max-w-[290px]">
                                     <img className="max-w-[299px] object-cover h-auto" src={item.img} alt="pic" />
                                  </div>
                              ))}
