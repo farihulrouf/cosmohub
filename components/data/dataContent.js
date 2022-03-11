@@ -1,0 +1,46 @@
+const contentSThree = [
+    {
+        id: 1,
+        title: "High quality co-living spaces",
+        desc: "CosmoHub is an arrangement in which workers of different companies.",
+        icon: "/img/content/icon_content1.svg"
+    },
+    {
+        id: 2,
+        title: "Equipped for productivity",
+        desc: "CosmoHub is an arrangement in which workers of different companies.",
+        icon: "/img/content/icon_content2.svg"
+    },
+    {
+        id: 3,
+        title: "Simple and inclusive",
+        desc: "CosmoHub is an arrangement in which workers of different companies.",
+        icon: "/img/content/icon_content3.svg"
+    }
+]
+
+const contentSthreeImage = [
+   {
+    id: 1,
+    img: "/img/content/Rectangle17.png"
+   },
+   {
+    id: 2,
+    img: "/img/content/Rectangle18.png"
+   },
+   {
+    id: 3,
+    img: "/img/content/Rectangle19.png"
+   },
+   {
+    id: 4,
+    img: "/img/content/Rectangle20.png"
+   },
+   
+   
+]
+
+export {
+    contentSThree,
+    contentSthreeImage
+ }

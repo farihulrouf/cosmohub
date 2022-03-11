@@ -3,6 +3,8 @@ import Image from 'next/image'
 import SectionBanner from '../components/home/SectionBanner'
 import NavBar from '../components/NavBar'
 import SectionTwo from '../components/home/SectionTwo'
+import SectionThree from '../components/home/SectionThree'
+import SectionFour from '../components/home/SectionFour'
 export default function Home() {
   return (
     <div>
@@ -16,6 +18,8 @@ export default function Home() {
         <NavBar />
         <SectionBanner />
         <SectionTwo />
+        <SectionThree/>
+        <SectionFour />
       </main>
 
       <footer>
