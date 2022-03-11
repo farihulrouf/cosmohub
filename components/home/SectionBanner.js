@@ -3,7 +3,7 @@ const SectionBanner = () => {
         <div className="object-cover min-h-[688px] bg-[url('/img/bg_nav.png')]">
             <div className="max-w-screen-xl mx-auto p-4">
             
-            <div className="max-w-lg pt-[100px]">
+            <div className="max-w-lg pt-[120px]">
                 <h2 className="text-white text-5xl py-2">A new way to revolutionise your workspace to yourself</h2>
                 <p className="text-white py-2">We are currently open for trial visits until the end of April, we invite you to try your new coworking space.</p>
             </div>
