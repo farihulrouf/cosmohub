@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer className="bg-black object-fill bg-center bg-[url('/img/footer_bg.png')]">
-             <div className="max-w-screen-xl mx-auto pb-4">
+             <div className="max-w-screen-xl mx-auto p-4">
                 <div className="pt-16 grid grid-cols-3 pb-8">
                     <div className="col-span-1">
                         <div className="flex space-x-1">
