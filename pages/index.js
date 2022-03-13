@@ -25,6 +25,7 @@ export default function Home() {
         <SectionFour />
         <SectionFive />
         <SectionSix />
+        <SectionSeven />
       </main>
 
       <footer>
