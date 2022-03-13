@@ -23,7 +23,7 @@ const SectionSix = () => {
                      <div className="lg:col-span-7 col-span-12">
                         <div className="lg:pl-12 pl-0 md:pb-8 pb-1">
                                 <h5 className="text-teal-300 text-xl py-2 py-1">GALLERY</h5>
-                                <h2 className="text-white md:max-w-[510px w-full font-semibold text-4xl md:text-5xl py-2">Immersive beautiful co-working space gallery</h2>  
+                                <h2 className="text-white md:max-w-[510px] w-full font-semibold text-4xl md:text-5xl py-2">Immersive beautiful co-working space gallery</h2>  
                         </div>
                         <div className="lg:pl-12 py-1 pl-0 flex gap-2">
                             <div className="">
