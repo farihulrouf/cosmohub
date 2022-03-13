@@ -1,5 +1,5 @@
 
-const Sectionsix = () => {
+const SectionSix = () => {
     return (
         <div className="bg-black">
              <div className="max-w-screen-xl mx-auto p-4">
@@ -48,4 +48,4 @@ const Sectionsix = () => {
         </div>
     )
 }
-export default Sectionsix
+export default SectionSix
