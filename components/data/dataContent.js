@@ -67,8 +67,480 @@ const contentFiveEvents = [
     }
 ]
 
+const product = [
+    {
+        id: 1,
+        title: "Standard",
+        desc: "BAM 320,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 2,
+        title: "Flex Five",
+        desc: "BAM 320,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 3,
+        title: "Flex Daily",
+        desc: "BAM 30,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 4,
+        title: "Standard",
+        desc: "BAM 320,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 5,
+        title: "Flex Five",
+        desc: "BAM 320,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 6,
+        title: "Flex Daily",
+        desc: "BAM 30,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 7,
+        title: "Standard",
+        desc: "BAM 320,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 8,
+        title: "Flex Five",
+        desc: "BAM 320,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    },
+    {
+        id: 9,
+        title: "Flex Daily",
+        desc: "BAM 30,00 Vat Included",
+        detail: [
+            {
+                id: 1,
+                text: "High quality ergonomic chair and flex desk"
+            },
+            {
+                id: 2,
+                text: "High Speed Optical Internet"
+            },
+            {
+                id: 3,
+                text: "Access to Meeting rooms & Phone Booths"
+            },
+            {
+                id: 4,
+                text: "Printer Access"
+            },
+            {
+                id: 5,
+                text: "24/7 Access"
+            },
+            {
+                id: 6,
+                text: "Personal Locker"
+            },
+            {
+                id: 7,
+                text: "Business Registration"
+            },
+            {
+                id: 8,
+                text: "Access to Event space"
+            },
+            {
+                id: 9,
+                text: "Mailing Address"
+            },
+            {
+                id: 10,
+                text: "Storage space with PC area"
+            },
+            {
+                id: 11,
+                text: "Get more information"
+            },
+
+        ]
+    }
+]
+
 export {
     contentSThree,
     contentSthreeImage,
-    contentFiveEvents
+    contentFiveEvents,
+    product
  }
