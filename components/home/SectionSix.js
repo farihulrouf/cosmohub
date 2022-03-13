@@ -16,7 +16,7 @@ const SectionSix = () => {
                 <div className="absolute bottom-0">
                         <img className="w-full" src="/img/bg_six_4.png" alt="pic" />
                 </div>
-                 <div className="grid grid-cols-12 p-8 sm:mt-40 mt-8">
+                 <div className="grid grid-cols-12 sm:mt-40 mt-8">
                      <div className="lg:col-span-5 col-span-12 pb-4">
                          <img className="w-full" src="/img/Rectangle_img_54.png" alt="pic" />
                      </div>
