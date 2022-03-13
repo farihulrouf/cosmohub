@@ -13,11 +13,11 @@ const SectionFour = () => {
                                 </p> 
                             </div>
                             <div className="py-4 pl-8">
-                                <button className="px-3 py-3 bg-[#FFBE0B] rounded-3xl">Apply for membership</button>
+                                <button className="px-3 py-3 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl">Apply for membership</button>
                              </div>
                      </div>  
                      <div className="md:col-span-6 col-span-12">
-                         <div className="sm:pl-2 pl-0">
+                         <div className="pl-4">
                              <SliderImage />
                           </div>
                      </div>     
