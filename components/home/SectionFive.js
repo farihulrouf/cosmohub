@@ -10,7 +10,7 @@ const SectionFive = () => {
                 </div>
 
                 <div className="max-w-4xl mx-auto">
-                    <div className="flex gap-2 py-8">
+                    <div className="flex flex-wrap justify-center gap-2 py-8">
                         {contentFiveEvents.map((item, index) => (
                             <ItemFive item={item} key={index} />
                         ))}

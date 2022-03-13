@@ -1,14 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import SectionBanner from '../components/home/SectionBanner'
-import NavBar from '../components/NavBar'
 import SectionTwo from '../components/home/SectionTwo'
 import SectionThree from '../components/home/SectionThree'
 import SectionFour from '../components/home/SectionFour'
 import SectionFive from '../components/home/SectionFive'
 import Sectionsix from '../components/home/SectionSix'
 import SectionSeven from '../components/home/SectionSeven'
-import Footer from '../components/Footer'
+
 export default function Home() {
   return (
     <div>
@@ -19,15 +18,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <NavBar />
+        
         <SectionBanner />
         <SectionTwo />
-        <SectionThree/>
+        <SectionThree />
         <SectionFour />
         <SectionFive />
-        <Sectionsix />
-        <SectionSeven />
-        <Footer />
       </main>
 
       <footer>

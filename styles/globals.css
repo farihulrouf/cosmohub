@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "Palo";
+      src: url("/fonts/TypeUnion - Palo Wide Light.otf") format("otf")
+    }
+  
+}
+
+
+
+li.slick-active > button::before {
+  color: white !important;
+  background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);
+}
