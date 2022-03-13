@@ -9,7 +9,7 @@ const SectionFive = () => {
                     <h2 className="text-white text-center max-w-[500px] text-5xl py-2">The benefits that will make you comfort</h2>  
                 </div>
 
-                <div className="max-w-4xl mx-auto">
+                <div className="max-w-4xl mt-8 mx-auto">
                     <div className="flex flex-wrap justify-center gap-2 py-8">
                         {contentFiveEvents.map((item, index) => (
                             <ItemFive item={item} key={index} />
