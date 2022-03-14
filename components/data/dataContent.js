@@ -572,12 +572,12 @@ const listMenu = [
     {
         id: 2,
         text: "Pricing",
-        link: "/"
+        link: "/price"
     },
     {
         id: 3,
         text: "Events",
-        link: "/"
+        link: "/event"
     },
     {
         id: 4,
