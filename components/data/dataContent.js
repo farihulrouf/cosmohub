@@ -538,9 +538,35 @@ const product = [
     }
 ]
 
+const dataEvent = [
+    {
+        id: 1,
+        title: "Star gaze at the cosmo",
+        category: "Music",
+        date: "12/12/2021",
+        img: "/img/events/event1.png"
+    },
+    {
+        id: 2,
+        title: "Co-working in a remote age",
+        category: "Business",
+        date: "12/12/2021",
+        img: "/img/events/event1.png"
+    },
+    {
+        id: 3,
+        title: "Star gaze at the cosmo",
+        category: "Music",
+        date: "12/12/2021",
+        img: "/img/events/event1.png"
+    },
+    
+]
+
 export {
     contentSThree,
     contentSthreeImage,
     contentFiveEvents,
-    product
+    product,
+    dataEvent
  }
