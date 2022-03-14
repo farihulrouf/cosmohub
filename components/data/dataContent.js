@@ -563,10 +563,34 @@ const dataEvent = [
     
 ]
 
+const listMenu = [
+    {
+        id: 1,
+        text: "Home",
+        link: "/"
+    },
+    {
+        id: 2,
+        text: "Pricing",
+        link: "/"
+    },
+    {
+        id: 3,
+        text: "Events",
+        link: "/"
+    },
+    {
+        id: 4,
+        text: "Jobs",
+        link: "/"
+    }
+]
+
 export {
     contentSThree,
     contentSthreeImage,
     contentFiveEvents,
     product,
-    dataEvent
+    dataEvent,
+    listMenu
  }
