@@ -1,18 +1,34 @@
+import React from 'react'
 import { product } from '../components/data/dataContent'
 import CardProduct from '../components/CardProduct'
+import BgPages from '../components/BgPages'
 const Price = () => {
+    const title = "Pricing to fit your needs."
+    const desc = "Open 24/7, Cosmohub offers flexe necessary amenities for a"
+    const products = product.slice(0, 3)
+    //console.log(products)
     return (
-        <div className="black min-h-screen">
-             <div className="max-w-screen-xl mx-auto lg:pl-20 lg:pr-20  pl-4 pr-4 pt-4 pb-4 font-palo pt-36">
-                 <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-4 gap-y-4 sm:gap-y-36">
-                     {product.map((item, index) => (
-                         <div key={index} className="col-span-1">
-                             <CardProduct  item={item} />
+        <React.Fragment>
+        <BgPages
+            title={title}
+            desc={desc}
+        />
+        <div className="bg-black">
+           
+            <div className="max-w-screen-xl mx-auto relative lg:min-h-[1800px] sm:min-h-[3000px] min-h-[5100px]">
+                    <div className="w-full h-60 -top-44 absolute p-4">
+                        <div className="grid grid-cols-12 gap-x-4 sm:gap-y-16 gap-4">
+                           {product.map((item, index) => ( 
+                                <div key={index} className="lg:col-span-4 sm:col-span-6 col-span-12">
+                                    <CardProduct  item={item} />
+                                </div>
+                            ))}
                          </div>
-                     ))}
-                 </div>
-            </div>
+                    </div>
+                    
+                </div>
         </div>
+        </React.Fragment>
     )
 }
 
