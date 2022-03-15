@@ -63,7 +63,7 @@ const Event = () => {
                         </div>
 
                         <div className="col-span-7 py-4">
-                            <img className="max-w-[524px] max-h-[425px]" src="/img/events/event_content4.png" />
+                            <img className="max-w-[524px] h-auto" src="/img/events/event_content4.png" />
                         </div>
                         
                         <div className="col-span-5 py-4">
