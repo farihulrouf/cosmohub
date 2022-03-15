@@ -1,12 +1,11 @@
 import React from 'react'
-import { product } from '../components/data/dataContent'
-import CardProduct from '../components/CardProduct'
+import { dataCardjob } from '../components/data/dataContent'
+import CardJob from '../components/CardJob'
 import BgPages from '../components/BgPages'
 const Job = () => {
     const title = "Every Career counts to the cosmos."
     const desc = "Open 24/7, Cosmohub offers flexe necessary amenities for a bmcorper libero orci egestas ut quam. Vitae duis innas pretium cras."
-    const products = product.slice(0, 3)
-    //console.log(products)
+
     return (
         <React.Fragment>
         <BgPages
@@ -28,7 +27,6 @@ const Job = () => {
                          <h2 className="text-white font-semibold text-4xl md:text-5xl py-2">Beautiful Condusive Working environment</h2>  
                          <p className="text-white max-w-[635px] py-8">Aenean enim, egestas semper lacus gravida. A laoreet tempor senectus id nisi. Etiam pellentesque aliquam aliquam feugiat a, consectetur. Integer aliquet eu, quis orci. Bibendum diam ante etiam porttitor vitae sollicitudin quis viverra est. Orci vestibulum adipiscing ornare in pellentesque.</p>
                     </div>
-
                     <div className="md:col-span-5 col-span-12">
                          <div className="py-1 pl-0 flex gap-2">
                             <div className="max-w-[252px]">
@@ -49,7 +47,20 @@ const Job = () => {
                         </div>
                     </div>
                  </div>
-
+                 <div className="flex flex-col items-center gap-y-6 justify-center pt-16">
+                     <h5 className="text-teal-300 text-xl py-1">Open Roles</h5>
+                    <h2 className="text-white text-center max-w-lg font-semibold text-4xl md:text-5xl"> The benefits that will make you comfort</h2>
+                    <p className="text-white text-center max-w-[700px]"> Open 24/7, Cosmohub offers flexe necessary amenities for a bmcorper libero orci egestas ut quam. Vitae duis innas pretium cras.</p>
+                 </div>
+                 <div className="grid grid-cols-12 gap-4 pt-24 pb-8">
+                        
+                           {dataCardjob.map((item, index) => ( 
+                                <div key={index} className="col-span-4">
+                                    <CardJob  item={item} />
+                                </div>
+                            ))}
+                         
+                 </div>
             </div>
         </div>
         </React.Fragment>

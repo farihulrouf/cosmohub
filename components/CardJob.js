@@ -1,0 +1,24 @@
+const CardJob = (props) => {
+    const {item} = props
+
+    return (
+        <div className="max-w-[331px] min-h-[453px] bg-[#826AB7] font-palo rounded-xl">
+            <div className="flex flex-col gap-y-8 p-3">
+               <p className="text-teal-500 uppercase">{item.category}</p>
+               <h3 className="text-white text-3xl max-w-[150px]">{item.title}</h3>
+               <p className="text-white text-lg max-w-[270px]">{item.desc}</p>
+               <div className="flex justify-between">
+                   {item.sub.map((sub, index) => (
+                       <p key={index} className="text-white text-base">{sub.text} </p>
+                   ))}
+                </div>
+                <div className="flex justify-center">
+                    <button className="py-2 px-2 bg-yellow-500 rounded-xl">Call to apply</button>
+                </div>
+            </div>
+           
+        </div>
+    )
+}
+
+export default CardJob

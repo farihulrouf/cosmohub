@@ -586,11 +586,196 @@ const listMenu = [
     }
 ]
 
+const dataCardjob = [
+    {
+        id: 1,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 5,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 6,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 7,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 8,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    },
+    {
+        id: 9,
+        title: "Solidity Developer",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum amet eget enim, rutrum quisque suspendisse orci nascetur platea. Vel id sem.",
+        category: "design",
+        sub: [
+            {
+                id: 1,
+                text: "Etherhub"
+            },
+            {
+                id: 2,
+                text: "Remote"
+            },
+            {
+                id: 3,
+                text: "Full-time"
+            }
+        ]
+    }
+] 
+
 export {
     contentSThree,
     contentSthreeImage,
     contentFiveEvents,
     product,
     dataEvent,
-    listMenu
+    listMenu,
+    dataCardjob
+    
  }
