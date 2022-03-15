@@ -582,7 +582,7 @@ const listMenu = [
     {
         id: 4,
         text: "Jobs",
-        link: "/"
+        link: "/job"
     }
 ]
 
