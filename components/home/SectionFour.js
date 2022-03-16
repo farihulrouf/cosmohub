@@ -4,10 +4,10 @@ const SectionFour = () => {
     return (
         <div className="bg-black font-palo">
              <div className="max-w-screen-xl mx-auto sm:pl-0 pl-4 pb-4 pt-4 relative">
-                <div className="absolute sm:top-4 sm:top-[340px] top-[20px] sm:left-[480px] right-0 ">
+                <div className="absolute sm:top-4 top-[20px] sm:left-[480px] right-0 ">
                     <img className="sm:w-96 w-28" src="/img/bg_section4.svg" />
                 </div>
-                <img className="absolute top-[10px] sm:left-[470px] right-[80px] w-12 h-auto" src="/img/rocket.svg" alt="pic" />
+                <img className="absolute sm:top-[55px] top-[10px] sm:left-[475px] right-[80px] w-12 h-auto" src="/img/rocket.svg" alt="pic" />
                  <div className="grid grid-cols-12 sm:pt-16 pt-4">
                      <div className="md:col-span-6 col-span-12">
                             <div className="max-w-3xl sm:pl-8 pl-0 lg:mt-24 mt-2">
