@@ -48,7 +48,7 @@ const Job = () => {
                     </div>
                  </div>
                  <div className="flex flex-col items-center gap-y-6 justify-center pt-16">
-                     <h5 className="text-teal-300 text-xl py-1">Open Roles</h5>
+                     <h5 className="text-teal-300 text-xl py-1 uppercase">Open Roles</h5>
                     <h2 className="text-white text-center max-w-lg font-semibold text-4xl md:text-5xl"> The benefits that will make you comfort</h2>
                     <p className="text-white text-center max-w-[700px]"> Open 24/7, Cosmohub offers flexe necessary amenities for a bmcorper libero orci egestas ut quam. Vitae duis innas pretium cras.</p>
                  </div>

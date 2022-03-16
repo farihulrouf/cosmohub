@@ -59,7 +59,7 @@ const Event = () => {
                              <p className="text-white py-2 max-w-[400px]">Breakout spaces are ideal for hosting presentations, networking sessions and in general events where you want your attendees to mingle and connect.</p>
                         </div>
                         <div className="lg:col-span-7 md:col-span-6 col-span-12">
-                             <h5 className="text-teal-300 text-xl py-2 py-1">Impress</h5>
+                             <h5 className="text-teal-300 text-xl py-2 py-1 uppercase">Impress</h5>
                              <h2 className="text-white md:max-w-[510px] w-full font-semibold text-4xl md:text-5xl py-2">Meeting Rooms</h2>  
                              <p className="text-white py-8 max-w-[450px]">We design our meeting rooms to offer a variety of sizes, layouts, moods and vibes. Always featuring the latest AV equipment, you can easily book a meeting room using the CosmoHub App.</p>
                         </div>
