@@ -11,7 +11,6 @@
 }
 
 
-
 li.slick-active > button::before {
   color: white !important;
   background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);

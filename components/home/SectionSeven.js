@@ -3,9 +3,9 @@ import Button from '../Button'
 const SectionSeven = () => {
     return (
         <div className="bg-black">
-             <div className="max-w-screen-xl mx-auto p-4 mt-16 mb-8 font-palo">
+             <div className="max-w-screen-xl mx-auto p-4 mt-16 mb-16 font-palo">
                 {/* <img className="w-36 absolute top-0" src="/img/bg_section_seven.svg" /> */}
-                 <div className="grid grid-cols-12">
+                 <div className="grid grid-cols-12 gap-x-6 gap-y-4">
                     <div className="md:col-span-6 col-span-12">
                          <h5 className="text-teal-300 text-xl py-2">BECOME A MEMBER</h5>
                          <h2 className="text-white text-4xl md:text-5xl py-2 font-semibold">Ready to try different work environment now?</h2> 
@@ -19,8 +19,18 @@ const SectionSeven = () => {
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12">
-                        <div className="md:max-w-[440px] md:mt-0 mt-4 w-full border-[1px] border-indigo-400 rounded-t-full">
-                            <img className="w-full h-auto rounded-t-full" src="/img/image_53.png" alt="pic" />
+                        <div className="md:max-w-[440px] mt-6 w-full rounded-t-full relative">
+                                 <div className="absolute -left-1 -top-2">
+                                     <img className="w-full h-[450px]" src="/img/line1.svg" alt="pic" />
+                                  </div>
+                                  <div className="relative z-20">
+                                    <img className="w-full z-20 p-1 h-auto rounded-t-full" src="/img/image_53.png" alt="pic" />
+                                 </div>
+                                
+                                 {/*
+                                <div className="w-full h-[450px] absolute  border-[1px] border-indigo-400  rounded-t-full -left-1 top-1">
+                                </div>
+                                */}
                         </div>
                     </div>
                  </div>
