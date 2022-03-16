@@ -2,7 +2,7 @@ const CardJob = (props) => {
     const {item} = props
 
     return (
-        <div className="sm:max-w-[331px] min-h-[453px] bg-[#826AB7] font-palo rounded-xl">
+        <div className="sm:max-w-[331px] min-h-[453px] bg-[#826AB7] font-palo rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-gradient-to-r from-slate-500 to-blue-500">
             <div className="flex flex-col gap-y-8 p-3">
                <p className="text-teal-500 uppercase">{item.category}</p>
                <h3 className="text-white text-3xl max-w-[150px]">{item.title}</h3>
