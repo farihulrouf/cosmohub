@@ -15,17 +15,17 @@ export default class SliderImageSectwo extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="max-w-[460px]">
+      <React.Fragment>
         <Slider {...settings}>
                 
-                     <img className="p-2 h-auto max-w-[450px] rounded-t-full" src="/img/image_50.png" />
+                     <img className="p-2 h-auto md:max-w-[450px] w-full rounded-t-full" src="/img/image_50.png" />
                
                  
-                    <img className="p-2 h-auto max-w-[450px] rounded-t-full" src="/img/image_50.png" />
+                     <img className="p-2 h-auto md:max-w-[450px] w-full rounded-t-full" src="/img/image_50.png" />
                 
                
         </Slider>
-      </div>
+      </React.Fragment>
     );
   }
 }
