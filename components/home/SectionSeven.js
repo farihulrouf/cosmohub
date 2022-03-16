@@ -3,10 +3,10 @@ import Button from '../Button'
 const SectionSeven = () => {
     return (
         <div className="bg-black">
-             <div className="max-w-screen-xl mx-auto p-4 mt-16 mb-16 font-palo">
-                {/* <img className="w-36 absolute top-0" src="/img/bg_section_seven.svg" /> */}
-                 <div className="grid grid-cols-12 gap-x-6 gap-y-4">
-                    <div className="md:col-span-6 col-span-12">
+             <div className="max-w-screen-xl mx-auto mt-16 mb-16 font-palo relative">
+                 <img className="w-36 absolute top-0 -left-24 -top-4" src="/img/bg_section_seven.svg" /> 
+                 <div className="grid grid-cols-12 gap-x-6 gap-y-4 p-4">
+                    <div className="md:col-span-6 col-span-12 z-30">
                          <h5 className="text-teal-300 text-xl py-2">BECOME A MEMBER</h5>
                          <h2 className="text-white text-4xl md:text-5xl py-2 font-semibold">Ready to try different work environment now?</h2> 
                          <p className="text-white max-w-lg py-8 text-base">With its unique concept, 

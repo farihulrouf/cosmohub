@@ -15,7 +15,7 @@ const Price = () => {
         />
         <div className="bg-black">
            
-            <div className="max-w-screen-xl mx-auto relative lg:min-h-[1800px] sm:min-h-[3000px] min-h-[5100px]">
+               <div className="max-w-screen-xl mx-auto relative lg:min-h-[1800px] sm:min-h-[3000px] min-h-[5100px]">
                     <div className="w-full -top-44 absolute p-4">
                         <div className="grid grid-cols-12 gap-x-4 sm:gap-y-16 gap-4">
                            {product.map((item, index) => ( 
