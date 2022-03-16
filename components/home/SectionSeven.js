@@ -15,7 +15,7 @@ const SectionSeven = () => {
                          whether you are just starting out or looking an inspiring place to be - Cosmohub has got you covered.</p>
                          <div className="py-4 space-x-2">
                             <Button>Sign Up Now</Button>
-                            <button className="px-6 py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Schedule Visit</button>
+                            <button className="px-6 py-2 lg:py-3 2xl:py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Schedule Visit</button>
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12">
@@ -27,10 +27,6 @@ const SectionSeven = () => {
                                     <img className="w-full z-20 p-1 h-auto rounded-t-full" src="/img/image_53.png" alt="pic" />
                                  </div>
                                 
-                                 {/*
-                                <div className="w-full h-[450px] absolute  border-[1px] border-indigo-400  rounded-t-full -left-1 top-1">
-                                </div>
-                                */}
                         </div>
                     </div>
                  </div>

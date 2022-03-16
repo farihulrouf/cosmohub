@@ -24,7 +24,7 @@ const NavBar = () => {
 
     return (
       <nav className={`fixed w-full z-30 ${navbar ? "bg-gradient-to-r from-blue-500 py-2" : "bg-transparent py-4"} `}>
-        <div className="max-w-screen-xl mx-auto px-4">
+        <div className="max-w-screen-xl mx-auto pl-4 pr-4">
           <div className="grid grid-cols-12">
             <div className="col-span-4">
                 <div className="flex space-x-1 items-center">
