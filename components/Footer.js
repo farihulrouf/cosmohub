@@ -25,6 +25,7 @@ const Footer = () => {
                          {listm.map((item, index) => (
                             <li key={index} className="text-white py-2"><Link href={item.link}><a>{item.text}</a></Link></li>
                          ))}
+                         <li  className="text-white py-2"><Link href="/"><a>Contact</a></Link></li>
                         </ul>
                     </div>
 
