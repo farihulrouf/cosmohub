@@ -23,7 +23,7 @@ const Event = () => {
                             ))}
                          </div>
                          <div className="flex justify-center pt-12">
-                            <button className="px-5 py-3 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl">view all</button>
+                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">view all</button>
                          </div>
                     </div>
                     

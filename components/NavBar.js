@@ -22,7 +22,7 @@ const NavBar = () => {
     })
 
     return (
-      <nav className={`fixed w-full z-20 ${navbar ? "bg-indigo-600 py-2" : "bg-transparent py-4"} `}>
+      <nav className={`fixed w-full z-20 ${navbar ? "bg-gradient-to-r from-blue-500 py-2" : "bg-transparent py-4"} `}>
         <div className="max-w-screen-xl mx-auto px-4">
           <div className="grid grid-cols-12">
             <div className="col-span-4">
@@ -37,7 +37,7 @@ const NavBar = () => {
                         <ListMenu />
                     </div>
                     <div className="hidden sm:block">
-                        <button className="bg-[#FFBE0B] px-4 py-2 rounded-lg">Become a member</button>
+                        <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Become a member</button>
                     </div>
                     <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden block">
                             <span className="sr-only">Open main menu</span>

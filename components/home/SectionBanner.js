@@ -8,9 +8,9 @@ const SectionBanner = () => {
                         <p className="text-white py-2 text-xl max-w-md font-normal">We are currently open for trial visits until the end of April, we invite you to try your new coworking space.</p>
                     </div>
                     <div className="sm:col-span-8 col-span-12">
-                          <div className="bg-gray-300 flex items-center justify-between max-w-2xl sm:p-6 p-2 sm:mt-10 mt-2">
+                          <div className="bg-gradient-to-r from-gray-400 to-slate-400 opacity-90 shadow-xl flex items-center justify-between max-w-2xl sm:p-6 p-2 sm:mt-10 mt-2">
                             <p className="text-white font-semibold sm:text-base text-sm">Enter your email address</p>
-                             <button className="px-3 py-3 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl">Apply for membership</button>
+                             <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Apply for membership</button>
                           </div>
                      </div>
                 </div>

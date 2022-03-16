@@ -13,8 +13,8 @@ const SectionSeven = () => {
                          where people can work, meet, learn or just hang out. So,  
                          whether you are just starting out or looking an inspiring place to be - Cosmohub has got you covered.</p>
                          <div className="py-4 space-x-2">
-                            <button className="px-3 py-2 bg-[#FFBE0B] rounded-3xl">Sign Up Now</button>
-                            <button className="px-3 py-2 text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Schedule Visit</button>
+                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Sign Up Now</button>
+                            <button className="px-6 py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Schedule Visit</button>
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12">

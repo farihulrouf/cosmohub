@@ -29,7 +29,7 @@ const SectionThree = () => {
                         </div>
 
                         <div className="py-6 space-x-2">
-                            <button className="px-4 py-2 bg-[#FFBE0B] rounded-3xl">explore more</button>
+                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">explore more</button>
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12">

@@ -18,8 +18,8 @@ const SectionTwo = () => {
                          </div>
 
                          <div className="py-4 flex items-center space-x-2 lg:pl-1 sm:pl-6 pl-0">
-                            <button className="px-3 py-2 bg-[#FFBE0B] rounded-3xl">view avaibility</button>
-                            <button className="px-3 py-2 text-white inline-flex space-x-2 items-center border-[1px] rounded-3xl"><img className="w-6 p-1 h-auto" src="/img/play.svg" />3D tour space</button>
+                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">view avaibility</button>
+                            <button className="px-6 py-4 sm:text-base text-sm text-white font-semibold inline-flex space-x-2 items-center border-[1px] rounded-3xl"><img className="w-6 p-1 h-auto" src="/img/play.svg" />3D tour space</button>
                          </div>
                         
                     </div>

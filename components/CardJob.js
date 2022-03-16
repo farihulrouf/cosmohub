@@ -13,7 +13,7 @@ const CardJob = (props) => {
                    ))}
                 </div>
                 <div className="flex justify-center">
-                    <button className="py-2 px-2 bg-yellow-500 rounded-xl">Call to apply</button>
+                    <button className="px-6 py-3 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Call to apply</button>
                 </div>
             </div>
            
