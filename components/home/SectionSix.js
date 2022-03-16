@@ -12,7 +12,7 @@ const SectionSix = () => {
                  <div className="absolute top-[510px]">
                         <img className="w-full" src="/img/bg_six_3.png" alt="pic" />
                 </div>
-
+                <img className="absolute top-16 right-[50px]" src="/img/rocket2.svg" alt="pic" />
                 <div className="absolute md:-bottom-32 bottom-0">
                         <img className="w-full" src="/img/bg_six_4.png" alt="pic" />
                 </div>
