@@ -1,5 +1,8 @@
+import Link from 'next/link'
+import {listMenu} from '../components/data/dataContent'
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaDribbble } from "react-icons/fa";
 const Footer = () => {
+    const listm = listMenu.slice(0,3)
     return (
         <footer className="bg-black bg-cover bg-bottom bg-[url('/img/footer_bg.png')]">
              <div className="max-w-screen-xl mx-auto p-4">
@@ -19,9 +22,9 @@ const Footer = () => {
                     <div className="md:col-span-3 col-span-3">
                         <h5 className="text-white">Menu</h5>
                         <ul className="py-1">
-                        <li className="text-white py-2">Pricing</li>
-                        <li className="text-white py-2">Events</li>
-                        <li className="text-white py-2">Contact</li>
+                         {listm.map((item, index) => (
+                            <li key={index} className="text-white py-2"><Link href={item.link}><a>{item.text}</a></Link></li>
+                         ))}
                         </ul>
                     </div>
 
