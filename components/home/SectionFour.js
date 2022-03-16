@@ -2,7 +2,7 @@ import SliderImage from "./SliderImage"
 import Button from '../Button'
 const SectionFour = () => {
     return (
-        <div className="bg-black font-palo">
+        <div className="font-palo">
              <div className="max-w-screen-xl mx-auto sm:pl-0 pl-4 pb-4 pt-4 relative">
                 <div className="absolute sm:top-4 top-[20px] sm:left-[480px] right-0 ">
                     <img className="sm:w-96 w-28" src="/img/bg_section4.svg" />

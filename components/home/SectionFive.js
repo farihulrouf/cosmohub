@@ -2,7 +2,7 @@ import { contentFiveEvents } from "../data/dataContent"
 import ItemFive from "./ItemFive"
 const SectionFive = () => {
     return (
-        <div className="bg-black">
+        <div className="font-palo">
              <div className="max-w-screen-xl mx-auto">
                 <div className="pt-20 flex flex-col items-center">
                     <h5 className="text-teal-300 text-center text-xl py-2">WHY CHOOSE US?</h5>
