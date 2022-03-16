@@ -1,19 +1,19 @@
 
 const SectionSix = () => {
     return (
-        <div className="bg-black">
-             <div className="max-w-screen-xl mx-auto p-4 relative">
-                 <div className="absolute top-0">
+        <div className="font-palo">
+             <div className="max-w-screen-xl mx-auto p-4 sm:pb-8 pb-1 relative">
+                 <div className="absolute md:-top-16 -top-2">
                     <img className="w-full" src="/img/bg_six_1.png" alt="pic" />
                  </div>
                  <div className="absolute top-80">
                         <img className="w-full" src="/img/bg_six_2.svg" alt="pic" />
                  </div>
-                 <div className="absolute top-[490px]">
+                 <div className="absolute top-[510px]">
                         <img className="w-full" src="/img/bg_six_3.png" alt="pic" />
                 </div>
 
-                <div className="absolute bottom-0">
+                <div className="absolute md:-bottom-32 bottom-0">
                         <img className="w-full" src="/img/bg_six_4.png" alt="pic" />
                 </div>
                  <div className="grid grid-cols-12 sm:mt-40 mt-8">

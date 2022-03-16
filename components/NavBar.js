@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import Link from 'next/link'
 import ListMenu from './ListMenu'
 import { HiMenu, HiX } from "react-icons/hi";
 import Button from './Button'
@@ -28,8 +29,11 @@ const NavBar = () => {
           <div className="grid grid-cols-12">
             <div className="col-span-4">
                 <div className="flex space-x-1 items-center">
-                    <img className="w-12 h-auto"src="/img/logo.svg" alt="logo" />
-                    <p className="text-white">CosmoHub</p>
+                    <Link href="/">
+                      <a><img className="w-12 h-auto"src="/img/logo.svg" alt="logo" /></a>
+                    </Link>
+                    <Link href="/"><a className="text-white">CosmoHub</a></Link>
+                  
                 </div>
             </div>
             <div className="col-span-8">

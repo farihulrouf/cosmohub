@@ -9,7 +9,7 @@ const CardJob = (props) => {
                <p className="text-white text-lg max-w-[270px]">{item.desc}</p>
                <div className="flex justify-between">
                    {item.sub.map((sub, index) => (
-                       <p key={index} className="text-white text-base">{sub.text} </p>
+                       <p key={index} className="text-white text-base hover:text-teal-300">{sub.text} </p>
                    ))}
                 </div>
                 <div className="flex justify-center">

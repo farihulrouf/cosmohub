@@ -20,7 +20,7 @@ const SectionSeven = () => {
                     </div>
                     <div className="md:col-span-6 col-span-12">
                         <div className="md:max-w-[440px] mt-6 w-full rounded-t-full relative">
-                                 <div className="absolute -left-1 -top-2">
+                                 <div className="absolute -left-1 md:-top-6 -top-2">
                                      <img className="w-full h-[450px]" src="/img/line1.svg" alt="pic" />
                                   </div>
                                   <div className="relative z-20">

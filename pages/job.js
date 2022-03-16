@@ -59,8 +59,20 @@ const Job = () => {
                                     <CardJob  item={item} />
                                 </div>
                             ))}
+
+                    <div className="md:col-span-6 col-span-12 md:mt-36 mt-10">
+                        <img className="sm:max-w-[365px] w-full" src="/img/job/job_content2.png" alt="pic" />
+                    </div>
+                    <div className="md:col-span-6 col-span-12 md:mt-36 mt-10">
+                             <h5 className="text-teal-300 text-xl py-2 py-1 uppercase">benefits</h5>
+                             <h2 className="text-white md:max-w-[510px] w-full font-semibold text-4xl md:text-5xl py-2">Beautiful Condusive Working environment</h2>  
+                             <p className="text-white max-w-[500px] py-8">
+                             Aenean enim, egestas semper lacus gravida. A laoreet tempor senectus id nisi. Etiam pellentesque aliquam aliquam feugiat a, consectetur. Integer aliquet eu, quis orci. Bibendum diam ante etiam porttitor vitae sollicitudin quis viverra est. Orci vestibulum adipiscing ornare in pellentesque.
+                            </p>
+                    </div>
                          
                  </div>
+
             </div>
         </div>
         </React.Fragment>
