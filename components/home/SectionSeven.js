@@ -1,4 +1,5 @@
 
+import Button from '../Button'
 const SectionSeven = () => {
     return (
         <div className="bg-black">
@@ -13,7 +14,7 @@ const SectionSeven = () => {
                          where people can work, meet, learn or just hang out. So,  
                          whether you are just starting out or looking an inspiring place to be - Cosmohub has got you covered.</p>
                          <div className="py-4 space-x-2">
-                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Sign Up Now</button>
+                            <Button>Sign Up Now</Button>
                             <button className="px-6 py-4 sm:text-base text-sm text-yellow-500 border-[1px] border-yellow-500 rounded-3xl">Schedule Visit</button>
                         </div>
                     </div>

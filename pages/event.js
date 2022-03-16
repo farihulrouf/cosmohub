@@ -2,6 +2,7 @@ import React from 'react'
 import { dataEvent } from '../components/data/dataContent'
 import CardEvent from '../components/CardEvent'
 import BgPages from '../components/BgPages'
+import Button from '../components/Button'
 const Event = () => {
     const title = "Cool-off and relax"
     const desc = "Open 24/7, Cosmohub offers flexe necessary amenities for a"
@@ -23,7 +24,7 @@ const Event = () => {
                             ))}
                          </div>
                          <div className="flex justify-center pt-12">
-                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">view all</button>
+                            <Button>view all</Button>
                          </div>
                     </div>
                     

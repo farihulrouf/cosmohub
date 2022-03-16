@@ -1,4 +1,5 @@
 import SliderImage from "./SliderImage"
+import Button from '../Button'
 const SectionFour = () => {
     return (
         <div className="bg-black font-palo">
@@ -16,7 +17,7 @@ const SectionFour = () => {
                                 </p> 
                             </div>
                             <div className="py-4 sm:pl-8 pl-0">
-                                <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Apply for membership</button>
+                                <Button>Apply for membership</Button>
                              </div>
                      </div>  
                      <div className="md:col-span-6 col-span-12">

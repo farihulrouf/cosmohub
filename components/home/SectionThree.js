@@ -1,5 +1,6 @@
 import { contentSThree, contentSthreeImage } from '../data/dataContent'
 import ImageCollect from './ImageCollect'
+import Button from '../Button'
 const SectionThree = () => {
     return (
         <div className="bg-black">
@@ -29,7 +30,7 @@ const SectionThree = () => {
                         </div>
 
                         <div className="py-6 space-x-2">
-                            <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">explore more</button>
+                            <Button>explore more</Button>
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12">

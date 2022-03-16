@@ -1,3 +1,4 @@
+import Button from './Button'
 const CardProduct = (props) => {
     const {item} = props
 
@@ -18,7 +19,7 @@ const CardProduct = (props) => {
                     ))}
                 </div>
                 <div className="flex justify-center">
-                    <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Choose Plan</button>
+                    <Button>Choose Plan</Button>
                 </div>
             </div>
            

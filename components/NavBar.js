@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import ListMenu from './ListMenu'
 import { HiMenu, HiX } from "react-icons/hi";
+import Button from './Button'
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false)
     const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,7 @@ const NavBar = () => {
                         <ListMenu />
                     </div>
                     <div className="hidden sm:block">
-                        <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Become a member</button>
+                        <Button>Become a member</Button>
                     </div>
                     <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden block">
                             <span className="sr-only">Open main menu</span>

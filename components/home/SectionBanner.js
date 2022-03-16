@@ -1,3 +1,4 @@
+import Button from '../Button'
 const SectionBanner = () => {
     return (
         <div className="object-cover sm:min-h-[688px] min-h-[400px] bg-[url('/img/bg_nav.png')]">
@@ -10,7 +11,7 @@ const SectionBanner = () => {
                     <div className="sm:col-span-8 col-span-12">
                           <div className="bg-gradient-to-r from-gray-400 to-slate-400 opacity-90 shadow-xl flex items-center justify-between max-w-2xl sm:p-6 p-2 sm:mt-10 mt-2">
                             <p className="text-white font-semibold sm:text-base text-sm">Enter your email address</p>
-                             <button className="px-6 py-4 bg-[#FFBE0B] sm:text-base text-sm rounded-3xl font-semibold">Apply for membership</button>
+                             <Button>Apply for membership</Button>
                           </div>
                      </div>
                 </div>
